@@ -1,0 +1,22 @@
+name: test_permissions
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  contacts_service: ^0.6.3
+  device_info_plus: ^8.1.0
+  flutter:
+    sdk: flutter
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
